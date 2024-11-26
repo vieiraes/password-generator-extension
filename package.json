@@ -1,0 +1,14 @@
+{
+  "name": "chrome-password-generator",
+  "version": "1.0.0",
+  "description": "Gerador de senhas para Chrome",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "postbuild": "./copy-files.sh"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.254",
+    "typescript": "^5.0.0"
+  }
+}

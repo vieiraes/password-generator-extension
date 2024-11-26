@@ -1,0 +1,51 @@
+body {
+    width: 350px;
+    padding: 20px;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;  /* Centraliza horizontalmente */
+}
+
+#passwordOutput {
+    font-family: 'Monaco', 'Consolas', monospace;
+    font-size: 16px;
+    padding: 12px;
+    border: 2px solid #e5e7eb;
+    border-radius: 6px;
+    background: #f9fafb;
+    color: #1f2937;
+    width: calc(100% - 24px); /* Ajusta largura considerando o padding */
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center; /* Centraliza os botões */
+    width: 100%;            /* Ocupa toda a largura disponível */
+}
+
+button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #0052ff;   /* Azul mais próximo do print */
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.2s;
+    min-width: 60px;       /* Garante largura mínima para os botões */
+    max-width: 80px;       /* Limita a largura máxima */
+}
+
+button:hover {
+    background: #0045d8;
+}
