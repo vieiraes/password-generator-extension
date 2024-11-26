@@ -1,6 +1,16 @@
 # Password Generator Extension (PWD)
 
-Uma extensão minimalista para o Chrome que gera senhas seguras com apenas um clique.
+Uma extensão minimalista para geradores de senha compatível com navegadores baseados em Chromium (Chrome, Edge, Brave, Opera).
+
+![Screenshot da extensão](assets/img/Screenshot.png)
+
+
+## 🌐 Compatibilidade
+- Google Chrome
+- Microsoft Edge
+- Brave Browser
+- Opera
+- Outros navegadores baseados em Chromium
 
 ## 🎯 Visão do Produto
 
